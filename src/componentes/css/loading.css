@@ -1,0 +1,59 @@
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgb(255, 255, 255);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.loading {
+  width: 40%;
+  height: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-clip: text;
+}
+
+
+
+@keyframes fillChange {
+  0% {
+    fill: transparent;
+    
+  }
+  100% {
+    fill: black;
+    
+  }
+}
+
+.animacion-fill .path1{
+
+  
+  animation: fillChange .5s forwards; 
+}
+.animacion-fill .path2{
+
+  
+  animation: fillChange 2s forwards; 
+}
+.animacion-fill .path3{
+
+  
+  animation: fillChange 3s forwards;
+}
+.animacion-fill .path4{
+  
+  animation: fillChange 4s forwards;
+}
+.animacion-fill .path5{
+
+  
+  animation: fillChange 5s forwards; 
+}

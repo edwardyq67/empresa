@@ -1,0 +1,18 @@
+.imgSVG{
+    width: 50%;
+    
+}
+.contenedorimg{
+   
+    display: flex;
+    gap: 20%;
+    max-height: 100%;
+    width: 100%;
+    margin: auto;
+}
+.imagen1{
+    flex: 1 0 50px;
+}
+.imagen2{
+    flex: 1 0 150px;
+}

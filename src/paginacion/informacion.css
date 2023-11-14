@@ -1,0 +1,34 @@
+.contenedorInformacion{
+    display: flex;
+    gap: 5%;
+    width: 90%;
+    max-height: 100%;
+    flex-wrap: wrap;
+   align-items: center;
+    margin: auto;
+    
+}
+.contenedorI{
+    flex: 1 0 120px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+ img{
+    flex: 1 0 120px;
+    width: 120px;
+    height: 100%;
+    border-radius: 20px;
+   
+}
+.conte h2{
+    text-align: start;
+    font-size: 5em;
+}
+span{
+    color: #A78BFA;
+}
+.conte p{
+    font-size: 1em;
+    font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
